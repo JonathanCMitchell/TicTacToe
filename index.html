@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Tic Tac Toe | Play for keeps</title>
+
+	<!-- CSS -->
+	<link href="styles/main.css" rel="stylesheet">
+	<!-- JAVASCRIPT -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/underscore/underscore-min.js"></script>
+	<script src="src/javascript.js"></script>
+	<script src="src/winners.js"></script>
+
+</head>
+<body>
+	<div class=container>
+		<div class="top space"><p class="space">Player </p><p class="space" id="player"></p><p class="space"> Your Turn</p></div>
+
+		<div class = "scoreboard">
+			<span><h1 class="win1">Player O Wins:<p id="win11"></p></h1></span>
+			<span><h1 class="win2">Player X Wins:<p id="win22"></p></h1></span>
+		</div>
+
+		<!-- TABLE -->
+		<button>Push To Start/Reset</button>
+		<div class = "tableHolder">
+			<table id="board" border="1">
+				<caption>Tic Tac Toe</caption>
+				<tr id="R1">
+					<td id = "1" class="cell"></td>
+					<td id = "2" class="cell"></td>
+					<td id = "3" class="cell"></td>
+				</tr>
+				<tr id="R2">
+					<td id = "4" class="cell"></td>
+					<td id = "5" class="cell"></td>
+					<td id = "6" class="cell"></td>
+				</tr>
+				<tr id="R3">
+					<td id = "7" class="cell"></td>
+					<td id = "8" class="cell"></td>
+					<td id = "9" class="cell"></td>
+				</tr>
+			</table>
+		</div> <!-- end of table div -->
+
+		<!-- RESULTS -->
+		<!-- <div class = "scoreboard">
+			<span><h1 class="win1">Player 1 Wins:<p id="win11"></p></h1></span>
+			<span><h1 class="win2">Player 2 Wins:<p id="win22"></p></h1></span>
+		</div>  -->
+
+	</div> <!-- end of container div-->
+
+</body>
+<footer>
+</footer>
+</html>

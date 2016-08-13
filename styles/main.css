@@ -1,0 +1,50 @@
+h1 {
+	text-align: center;
+	color: light-blue;
+	font-weight
+}
+.container {
+	background-color: snow;
+}
+.top {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+}
+.space {
+	margin: 10px;
+}
+
+
+.tableHolder {
+	text-align: center;
+	display: block;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+table {
+	width: 75%;
+	height: 500px;
+	border: 1px;
+	border-color: black;
+	background-color: #E1E8FA;
+	table-layout: fixed;
+}
+
+td {
+	background-color: #FAE7E6;
+}
+button {
+	display: block;
+	width: 20%;
+	margin: 3% 41%;
+	height: 35px;
+	background-color: #60C0E0;
+}
+
+.scoreboard {
+	display: block;
+	margin: 0 4% auto 6%;
+}
